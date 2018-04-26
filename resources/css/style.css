@@ -1,0 +1,69 @@
+/* Universal Styles */
+
+html {
+  font-size: 22px;
+  font-family: helvetica;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  text-align: center;
+  margin: 0;
+}
+
+a {
+  text-decoration: underline;
+  font-size: 22px;
+  font-family: helvetica;
+  color: seashell;
+}
+
+/* Header */
+header {
+  width: 100%;
+  height: 69px;
+  position: fixed;
+  display: flex;
+  border-bottom: 1px solid seashell;
+  background-color: black;
+  margin-top: 0px;
+  align-items: center;
+  z-index: 1;
+}
+
+header .logo {
+  display: flex;
+  height: 50px;
+  padding-left: 10px;
+
+}
+
+header .nav {
+  text-decoration: underline;
+  display: flex;
+
+
+}
+
+nav {
+  text-align: right;
+  flex-grow: 1;
+}
+
+nav,
+span {
+  display: inline-block;
+  padding: 20px 10px;
+}
+
+
+
+/* Main Content*/
+.main {
+  padding-top: 69px;
+}
+
+/* Tea Of The Month */
+
+/* Locations */
+
+/* Footer */
